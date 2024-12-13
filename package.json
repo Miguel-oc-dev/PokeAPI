@@ -1,0 +1,21 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "API REST para una aplicacion web, centrada en consultar, crear, modificar y eliminar la informacion de una base de datos.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.js"
+  },
+  "author": "Miguel Contreras",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
